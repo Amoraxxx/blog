@@ -1,60 +1,194 @@
-<!doctype html>
-<html lang="en">
+  <!doctype html>
+  <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Exemplo Bootstrap</title>
+    <title>Paletas e Cia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
+    <link href="imagens/pop.png" rel="shortcut icon">
+    <style type="text/css"> 
+    .jumbotron{
+      background-image: url(imagens/imagempadrao.jpg);
+      width: 100%;
+      height: 700px;
+    }
+    hr {
+      display: block;
+      height: 3px;
+      border: 0;
+      border-top: 1px solid #FFDF00;
+      margin: 1em 0;
+      padding: 0; 
+    }
+    .center {
+      margin: auto;
+      width: 70%;
+    }
+  </style>
+</head>
 
-  <body>
-
-  
-    <nav class="navbar navbar-dark bg-dark">
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<body class="bg-light">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F7819F;">
+      <a href="index.html" class="navbar-left"><img src="imagens/pop.png"></a>
+      <a class="navbar-brand mx-2" target="_blank">Cia das paletas</a>   
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="palesquisar..." aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">ir</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid my-2">
+      <div class="jumbotron">
+      </div>
+      <div class="container-fluid">
+        <div class="row"> 
+          <div class="col">
+            <h5 style="color: #F7819F;">Novidades!!!</h5>
+            <hr class="my-4" style="color:yellow;">
+            <div class="row mx-5">
+              <div class="col">
+                <a href="noticia1.html" target="_blank"><img src="imagens/choco.jpg"></a>
+                <h5 class="my-2">Com chocolate!!</h5>
+                <p class="lead">
+                  recheio extra cremoso
+                </p>
+                <a href="noticia3.html" target="_blank"><img src="imagens/kiwi.jpg" class="my-4"></a>
+                <h5 class="">Paleta de kiwi</h5>
+                <p class="lead">
+                 Nada como uma frutinha peluda
+               </p>
+             </div>
+             <div class="col">
+               <a href="noticia2.html" target="_blank"><img src="imagens/briga.jpg"></a>
+               <h5 class="my-2">Brigadeiro!!!!</h5>
+               <p class="lead">
+                 Com confeitos feitos em noissa cozinha, com os melhores cozinheiro do Brasil!
+                </p>
+            </div>
+          </div>
+          <div class="row center">
+            <img src="imagens/mb.gif" >
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
-</nav>
+</div>
+<div class="container-fluid bg-dark">
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-1 mt-1">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left bg-dark">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-light">Sorteio!</h5>
+          <ul class="list-unstyled text-muted">
+            <li>-Vá para a nossa página do Facebook</li>
+            <li>-Clique no link da promoção</li>
+            <li>-Leia as regras</li>
+            <li>-Confirme seu email e pronto!É só torcer</li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-light">Nos contate!</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Av. Iguatemi, 777 - Vila Brandina, Campinas - SP</li>
+            <li>(16) 3235-3112</li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-light">Oração da semana</h5>
+          <ul class="list-unstyled text-muted">
+            <li>Senhor meu Deus, envia o teu anjo na minha frente, preparando o caminho desta viagem.</li>
+
+            <li>Proteja-me durante todo o percurso, livrando-me de acidentes ou qualquer outro perigo que ronde o meu trajeto.</li>
+
+            <li>Guia-me, Senhor, com Tua mão.</li>
+
+            <li>Que esta viagem seja tranquila e agradável, sem contratempos ou contrariedades.</li>
+
+            <li>Que eu retorne satisfeito e em plena segurança.</li>
+
+            <li>Graças te dou, pois sei que durante todo o tempo estarás comigo.</li>
+
+            <li>Amém!</li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-light">LANGLANGLANG</h5>
+          <ul class="list-unstyled text-muted">
+            <li>LANGLANGLANGLANGLANGLANG</li>
+            <li>ELANGLANGLANGLANGLANGLANG</li>
+            <li>LANGLANGLANGLANGLANGLANG</li>
+            <li>LANGLANGLANGLANGLANGLANG</li>
+            <li>LANGLANGLANGLANGLANGLANG</li>
+            <li>LANGLANGLANGLANGLANGLANG</li>
+            <li>LANGLANGLANGLANGLANGLANG</li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</div>
+
+</body>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-  </body>
+<!-- Seu código vai aqui! -->
+
+
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/vendor/jquery-slim.min.js"></script>
+        <script src="assets/js/vendor/popper.min.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/holder.min.js"></script>
+        <script>
+          Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'Thumbnail'
+          });
+        </script>
+      </body>
 </html>
